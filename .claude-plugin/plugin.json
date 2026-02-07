@@ -1,0 +1,12 @@
+{
+  "name": "hotcontext",
+  "description": "Deterministic context injection for Claude Code. Use +tags to load domain knowledge, documentation, and conventions on-demand.",
+  "version": "0.1.0",
+  "author": {
+    "name": "0xlarry"
+  },
+  "homepage": "https://github.com/0xlarry/hotcontext",
+  "repository": "https://github.com/0xlarry/hotcontext",
+  "license": "MIT",
+  "keywords": ["context-engineering", "tags", "bundles", "domain-knowledge"]
+}

@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Test temp files are cleaned up automatically, but just in case
+/tmp/
+
+# Project-level .claude/ is for local testing, not part of the plugin
+.claude/

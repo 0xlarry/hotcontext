@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hotcontext",
+  "description": "Deterministic context injection for Claude Code — +tags for domain knowledge",
+  "owner": {
+    "name": "0xlarry"
+  },
+  "plugins": [
+    {
+      "name": "hotcontext",
+      "description": "Tag-based context injection for Claude Code",
+      "version": "0.1.0",
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://github.com/0xlarry/hotcontext"
+    }
+  ]
+}
