@@ -32,4 +32,5 @@ version: 1.0.0
 Tell the user:
 - `.claude/hotcontext/` is ready
 - Edit `example.md` or run `/hotcontext:new <tagname>` to create bundles
+- Aim for 300–800 words per bundle — focus on what Claude gets wrong
 - Use `+tagname` in prompts to inject context

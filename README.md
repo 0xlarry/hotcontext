@@ -128,8 +128,11 @@ The resolver is ~80 lines of Node.js with zero external dependencies. It complet
 
 ## Size Guidelines
 
-- Individual bundles: aim for 500-1,500 words. Keep under 2,000 words.
+- Individual bundles: aim for 300–800 words. Keep under 1,000 words.
 - Combined context per prompt: stay under ~4,000 tokens total.
+- If a bundle exceeds 800 words, consider splitting it into two focused tags.
+
+Smaller bundles compose better. Three focused 400-word bundles outperform one 1,200-word bundle because every token competes for the model's attention budget (see [Anthropic's context engineering guide](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)).
 
 ## Example Bundles
 

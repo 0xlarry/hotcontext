@@ -43,4 +43,5 @@ Use the actual tag name in place of `<tagname>` (lowercase, as provided by the u
 Show the created file path and remind the user to:
 1. Fill in the `description` frontmatter field
 2. Add documentation links, conventions, and anti-patterns
-3. Use `+<tagname>` in prompts to inject this context
+3. Aim for 300–800 words. If it exceeds 800, consider splitting into two focused tags.
+4. Use `+<tagname>` in prompts to inject this context
