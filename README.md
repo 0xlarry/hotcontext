@@ -142,6 +142,17 @@ The plugin ships with example bundles in `examples/` for reference:
 - **security.md** — Security audit checklist, OWASP references, vulnerability patterns
 - **reviewer.md** — Code review standards, communication patterns, checklist
 
+## Where hotcontext Sits in the Ecosystem
+
+| Mechanism | Trigger | Scope | Purpose |
+|-----------|---------|-------|---------|
+| CLAUDE.md | Automatic | Per-session | Always-on conventions |
+| Skills | Model-invoked or `/skill` | Per-task | Workflows Claude executes |
+| Slash commands | `/command` | Per-task | Predefined prompts |
+| **hotcontext** | **`+tag`** | **Per-prompt** | **On-demand reference material** |
+| MCP servers | Tool calls | Per-call | External service integration |
+| Hooks | Lifecycle events | Per-event | Deterministic automation |
+
 ## Development
 
 ```bash
